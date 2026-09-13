@@ -1,0 +1,45 @@
+screen_no,start_timestamp,end_timestamp,start_seconds,duration_seconds,section,screen,notes
+1,0:00.00,0:02.00,0.00,2.00,Pre-signup,Welcome — 'Cutback: A quieter way to change your drinking',Begin; 'progress here is counted in effort — any effort counts'; SAMHSA National Helpline footer on first screen
+2,0:02.00,0:04.00,2.00,2.00,Quiz - About You,'What year were you born?' — empty,Age gate (17+); 'It's the only thing this answer is used for'; Continue
+3,0:04.00,0:08.00,4.00,4.00,Quiz - About You,"'What year were you born?' — numeric keypad open, typing",Entered 2000
+4,0:08.00,0:15.00,8.00,7.00,Quiz - Your Drinking,'Have you set out to change this before?',"Yes / Not yet; 'Either answer is a fine place to start'; 'only shapes wording later, changes no numbers in your plan'"
+5,0:15.00,0:20.00,15.00,5.00,Quiz - Your Drinking,"'On a typical day, how many drinks?'","Stepper, 2 drinks a day; 'An estimate is fine. You can change it later.'"
+6,0:20.00,0:27.00,20.00,7.00,Quiz - Your Drinking,'A quick picture of now' — empty,Weekly drinks + weekly spend fields; Continue / Skip this
+7,0:27.00,0:35.18,27.00,8.18,Quiz - Your Drinking,"'A quick picture of now' — keypad open, filled in","9 drinks/week, $60/week spend"
+8,0:35.18,0:38.00,35.18,2.82,Goal setting,'What are you working toward?',Quit completely / Cut back — Cut back selected; 'You can change this anytime. Your history stays yours.'
+9,0:38.00,0:41.00,38.00,3.00,Goal setting,'What feels sustainable?',Stepper 2 → 1 drink a day; 'That's 50% less than a typical day for you'; days at/under count as success days
+10,0:41.00,0:44.00,41.00,3.00,Goal setting,'Choose a tracking timeframe',2 / 4 / 8 / 12 weeks / No set timeframe — 8 weeks selected; disclaimer: 'It cannot tell you what pace is medically safe'
+11,0:44.00,0:52.00,44.00,8.00,Quiz - Your Why,"'What's this for?' — anchors, empty","1–3 reasons (e.g. my kids, clear mornings), Add a photo, optional 'why now?' free text"
+12,0:52.00,0:59.00,52.00,7.00,Quiz - Your Why,"'What's this for?' — keyboard open, typing anchor",Added anchor 'My mom'; why-now left blank
+13,0:59.00,1:04.00,59.00,5.00,Quiz - Your Why,'What feels hardest right now?',"Multi select: Cravings / Social pressure / Stress / Sleep / Habit and routine / Doing it alone; 'sets the tone of your reminders, nothing more'; SAMHSA helpline card"
+14,1:04.00,1:08.00,64.00,4.00,Quiz - Your Why,"'What feels hardest right now?' — selections made, scrolled","Stress, Sleep, Doing it alone selected; Continue"
+15,1:08.00,1:11.00,68.00,3.00,Commitment,'Your goal: no more than 1 a day.' — commitment card,Quotes anchor 'My mom'; 'about ¥693 a year staying with you' estimate; statement 'I'm choosing to drink less — and I know why.' (Edit); checkbox unchecked
+16,1:11.00,1:13.00,71.00,2.00,Commitment,'Your goal' — 'I'm ready to take this one day at a time' checked,Continue / Continue without a commitment
+17,1:13.00,1:16.11,73.00,3.11,Reminder setup,"'A quiet check-in, once a day'","Set my reminder / Not now; 'No badges, no pressure'"
+18,1:16.11,1:17.00,76.11,0.89,Reminder setup,'A quiet check-in' — time picker,19:00; Done
+19,1:17.00,1:20.00,77.00,3.00,Reminder setup,iOS notification permission prompt over 'Your tracking schedule',Don't Allow / Allow — system prompt fired after reminder time set
+20,1:20.00,1:23.00,80.00,3.00,Plan reveal,"'Your tracking schedule' — 'reaches 1 a day by Oct 17, 2026'",Tapering bar chart (2/day → 1/day); 'Calculated only from the numbers and timeframe you chose'
+21,1:23.00,1:28.00,83.00,5.00,Plan reveal,"'Your tracking schedule' — scrolled, 'If you use these tracking targets'","¥693 kept/year, 21 drinks outside schedule, 50% less; 'Based on the numbers you gave us — nothing else'; Use these tracking targets"
+22,1:28.00,1:32.77,88.00,4.77,Plan reveal,Bottom sheet — 'One quick safety note',"Withdrawal warning for heavy daily drinkers, talk to a healthcare professional, not medical care; NIAAA link; Start tracking / Go back"
+23,1:32.77,1:35.00,92.77,2.23,Paywall,'Your plan is set' — 'Cutback Anywhere' upsell,"Widget / Lock Screen preview (0/2 today, Log a drink); 1 week free then $39.99 billed annually; Start free trial / Maybe later"
+24,1:35.00,1:51.38,95.00,16.38,Paywall,'Cutback Anywhere' — scrolled to features and plans,"Shields, premium room décor, Home/Lock Screen logging, Siri/Shortcuts; Annual $39.99 (Best value, 1 week free, preselected) / 3 Months $14.99 / Lifetime $59.99"
+25,1:51.38,1:56.00,111.38,4.62,Paywall,Plans — 3 Months selected,"$14.99 billed every 3 months, no trial; CTA changes to Continue"
+26,1:56.00,1:58.00,116.00,2.00,Paywall,Plans — Annual reselected,Start free trial
+27,1:58.00,1:59.25,118.00,1.25,Paywall,'Setting up Cutback Anywhere' — 'Contacting the App Store...',Loading
+28,1:59.25,2:03.00,119.25,3.75,Paywall,App Store purchase sheet — Cutback Anywhere - Annual,"1-week free trial, then $39.99/year starting Sep 19, 2026; Double Click to Subscribe / Confirm with Side Button"
+29,2:03.00,2:06.00,123.00,3.00,Paywall,Face ID confirm → 'Setting up Cutback Anywhere' — 'Activating your widgets...',Processing
+30,2:06.00,2:11.11,126.00,5.11,Paywall,iOS dialog — 'You're all set.','Your purchase was successful.' OK
+31,2:11.11,2:12.94,131.11,1.83,Paywall,'You already have this','Cutback Anywhere is unlocked on this account. Nothing more to pay.' Continue (sandbox/previously purchased)
+32,2:12.94,2:21.65,132.94,8.71,Today,"Home — 'Sat, Sep 12' week strip, 'A quick check-in' card","0/3 completed (Feeling / Emotions / Note); Today gauge 0/2, Limit 2 a day; tabs Home / Room / Progress / Profile"
+33,2:21.65,2:24.00,141.65,2.35,Today,Home — scrolled down,"Log a drink button, Finish today's log, anchor 'My mom' shown; scrolls back up"
+34,2:24.00,2:27.00,144.00,3.00,Room tour,Room tab — illustrated empty room,0 credits; Check in; Customize
+35,2:27.00,2:31.00,147.00,4.00,Check-in,Check-in sheet — 'How did today feel?',"Bad / Rough / Okay / Good / Awesome — Okay selected; 'However it went, logging it counts'; No thanks, later"
+36,2:31.00,2:34.00,151.00,3.00,Check-in,'What was behind it?',"Multi select emotions (Calm, Proud, Hopeful, Tired, Stressed, Anxious, Sad, Frustrated) — Stressed selected"
+37,2:34.00,2:36.26,154.00,2.26,Check-in,'Want to write it down?',"Free text 'What stood out about today?'; Save / No thanks, later"
+38,2:36.26,2:39.57,156.26,3.31,Room tour,Room tab — back from check-in,0 credits
+39,2:39.57,2:44.00,159.57,4.43,Room tour,"Room — Customize drawer, Chairs","Blue armchair 25 credits, Grandma's orange chair Pro + 40 credits; 'Claim 30 welcome credits'"
+40,2:44.00,2:47.00,164.00,3.00,Room tour,"Room — Customize, Companions","Cream cat 60 credits, Black cat Pro + 60 credits"
+41,2:47.00,2:48.00,167.00,1.00,Room tour,"Room — Customize, Books","Classic books 15 credits, Pastel books Pro + 15 credits"
+42,2:48.00,2:51.00,168.00,3.00,Profile tour,Profile — 'I'm choosing to drink less — and I know why.',"Cutting back — 2 a day, Day 1; Since you began: ¥9 saved, 1 day within limit, run 1, 0 drinks logged"
+43,2:51.00,2:52.50,171.00,1.50,Progress tour,"Progress — Statistics, 'Your plan so far'",0/2; Weekly/Monthly/YTD average drinks chart (empty); 'Any effort counts'
+44,2:52.50,2:54.95,172.50,2.45,Today,Home — after check-in,"2/3 completed (Feeling, Emotions done); 0/2 logged today; Log a drink"

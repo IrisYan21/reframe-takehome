@@ -1,0 +1,176 @@
+screen_no,start_timestamp,end_timestamp,start_seconds,duration_seconds,section,screen,notes
+1,0:00.00,0:02.03,0.00,2.03,Pre-signup,App launch splash (red Noom logo),
+2,0:02.03,0:04.50,2.03,2.47,Pre-signup,iOS App Tracking Transparency prompt over landing,Permission ask before anything else
+3,0:04.50,0:06.00,4.50,1.50,Pre-signup,iOS notification permission prompt,Second permission ask within 5s of launch
+4,0:06.00,0:07.00,6.00,1.00,Pre-signup,Landing — 'Results that last',Get started / Log in
+5,0:07.00,0:12.00,7.00,5.00,Account creation,Sign up for Noom — account options,Email + password / Sign in with Apple / Facebook; account created before any quiz
+6,0:12.00,0:15.00,12.00,3.00,Account creation,Sign in with Apple sheet,Share / hide email
+7,0:15.00,0:23.43,15.00,8.43,Account creation,Sign in with Apple — Face ID confirmation,
+8,0:23.43,0:28.76,23.43,5.33,Account creation,'Signing you in...' loader,
+9,0:28.76,0:38.19,28.76,9.43,Quiz - Demographic Profile,'What is your weight loss goal?',"Lose 1-10 / 11-20 / over 20 kg for good, Maintain weight and get fit, I haven't decided yet; progress bar with section name"
+10,0:38.19,0:39.79,38.19,1.60,Quiz - Demographic Profile,'Hormones impact how our bodies metabolize food. What sex were you assigned at birth?',Male / Female / Intersex; justification framed before question
+11,0:39.79,0:42.00,39.79,2.21,Quiz - Demographic Profile,'What is your gender identity?',Man / Woman / Non-binary / I use a different term / Prefer not to say
+12,0:42.00,0:43.29,42.00,1.29,Quiz - Demographic Profile,Gender identity — 'Woman' selected,Next
+13,0:43.29,0:45.28,43.29,1.99,Quiz - Demographic Profile,'Are you pregnant?',Yes / No
+14,0:45.28,0:47.00,45.28,1.72,Quiz - Demographic Profile,'What is your age?' — dropdown,
+15,0:47.00,0:48.00,47.00,1.00,Quiz - Demographic Profile,Age picker open,18+ wheel list
+16,0:48.00,0:48.89,48.00,0.89,Quiz - Demographic Profile,Age — 25 selected,Next
+17,0:48.89,0:51.89,48.89,3.00,Quiz - Demographic Profile,'What's your height?' — numeric keypad,cm
+18,0:51.89,0:55.00,51.89,3.11,Quiz - Demographic Profile,'What's your current weight?' — 'We don't mean to pry...',kg keypad; apologetic tone
+19,0:55.00,0:56.13,55.00,1.13,Quiz - Demographic Profile,Current weight filled — 58 kg,Micro-affirmation 'Thank you for sharing! That's an important (and hard) first step!'
+20,0:56.13,0:59.00,56.13,2.87,Quiz - Demographic Profile,'Do you have any of the following conditions?',High blood pressure / cholesterol / insomnia / osteoarthritis / depression / other / none; multi select
+21,0:59.00,0:59.96,59.00,0.96,Quiz - Demographic Profile,Conditions — 'None' selected,Next
+22,0:59.96,1:03.80,59.96,3.84,Quiz - Demographic Profile,'Have you ever been diagnosed with diabetes?',Yes / No; 'We ask this question to tailor your program with the right support.'
+23,1:03.80,1:08.63,63.80,4.83,Quiz - Demographic Profile,"'Do you have an active diagnosis of an eating disorder (e.g. bulimia, anorexia...)?'",Yes / No; answered No (medical screening)
+24,1:08.63,1:14.59,68.63,5.96,Interstitial,'You're in trusted hands' — social proof,"'we've helped 3,627,436 people lose weight!*' (lost 2%+ as of Oct 2021); Continue"
+25,1:14.59,1:20.00,74.59,5.41,Quiz - Weight Loss Goals,'What is your ideal weight that you want to reach?',kg; disclaimer 'Noom users typically lose 0.5-1 kg per week'
+26,1:20.00,1:21.08,80.00,1.08,Quiz - Weight Loss Goals,Ideal weight filled — 50 kg,'Great! We're excited to help you hit your goals.'
+27,1:21.08,1:34.86,81.08,13.78,Interstitial,"'Noom creates long-term results through habit and behavior change, not restrictive dieting'",Animated Your Weight chart Noom vs restrictive diet; '78% of participants lost weight over 6 months' (Scientific Reports); Got it!
+28,1:34.86,1:43.00,94.86,8.14,Quiz - Weight Loss Goals,'What area do you want to focus on in your plan?',Nutrition / Physical activity / Building good habits / Other; multi select
+29,1:43.00,1:44.56,103.00,1.56,Quiz - Weight Loss Goals,Focus area — Nutrition + Physical activity selected,Next
+30,1:44.56,1:51.83,104.56,7.27,Quiz - Weight Loss Goals,'Do you have an important event coming up?','Having something to look forward to can be a big motivator'; Vacation / Wedding / Holiday / Summer / Reunion / Birthday / Other / No
+31,1:51.83,1:53.13,111.83,1.30,Quiz - Weight Loss Goals,'Exciting! ... When is the birthday?',Select a date / Skip
+32,1:53.13,1:57.49,113.13,4.36,Quiz - Weight Loss Goals,Birthday date picker open,Calendar
+33,1:57.49,1:58.61,117.49,1.12,Quiz - Weight Loss Goals,Birthday filled — January 21 2027,Next
+34,1:58.61,2:05.03,118.61,6.42,Quiz - Weight Loss Goals,"'This is your plan, designed to work at your pace... which pace would you prefer?'",As fast as possible / Slow and steady wins the race / Somewhere in between
+35,2:05.03,2:18.48,125.03,13.45,Interstitial,'Sticking to a plan can be hard. Noom makes it easy.' — testimonial,Jennifer quote + photo; 0.5-1 kg/week disclaimer; Got it!
+36,2:18.48,2:32.49,138.48,14.01,Plan generation,'Lose twice as much weight with Noom vs. trying on your own' + progress loader,2x bar chart (12-week study); Analyzing responses -> Calculating weight loss pace -> Preparing results 9-92%
+37,2:32.49,2:41.31,152.49,8.82,Weight prediction,First prediction — 'The last weight loss program you'll ever need' — '50 kg by 9 Jan',"'And lose ~8 kg by the birthday!'; 58->50 kg graph with birthday marker; 'Next, tell us about your habits... reach your goal sooner' — FIRST VALUE"
+38,2:41.31,2:51.55,161.31,10.24,Weight prediction,"Prediction scrolled — sticky '50 kg by Jan' bar, testimonial, press logos",Try for free CTA; Genia 'lost 9 kg'; As featured in GH/CNN/Today/Shape/NYT
+39,2:51.55,2:54.00,171.55,2.45,Quiz - Weight Loss Profile,'What is your preferred first name?',Text field
+40,2:54.00,2:56.30,174.00,2.30,Quiz - Weight Loss Profile,"First name — keyboard open, typing 'Iris'",
+41,2:56.30,3:02.23,176.30,5.93,Quiz - Behavioral Profile,'Behavioral Profile Quiz' intro,Start Your Quiz
+42,3:02.23,3:08.44,182.23,6.21,Quiz - Behavioral Profile,BPQ 1/10 — 'I want to...' lower my weight vs improve my lifestyle,Either/or scale; chose lower weight
+43,3:08.44,3:18.25,188.44,9.81,Quiz - Behavioral Profile,BPQ 2/10 — 'Achieving my weight goal...' important for other areas vs doesn't affect,
+44,3:18.25,3:23.00,198.25,4.75,Quiz - Behavioral Profile,BPQ 3/10 — 'I would love my body...' the same vs more if I reach my goal,
+45,3:23.00,3:26.24,203.00,3.24,Quiz - Behavioral Profile,BPQ 4/10 — 'I think about my weight...' all the time vs only when prompted,Chose only when prompted
+46,3:26.24,3:33.95,206.24,7.71,Quiz - Behavioral Profile,BPQ 5/10 — my barriers are mostly external vs internal,Chose external
+47,3:33.95,3:40.07,213.95,6.12,Quiz - Behavioral Profile,BPQ 6/10 — 'Weight loss/management is...' the ultimate goal vs a means to an end,
+48,3:40.07,3:52.67,220.07,12.60,Quiz - Behavioral Profile,BPQ 7/10 — my motivation is constant vs goes up and down,Answer changed twice
+49,3:52.67,4:01.67,232.67,9.00,Quiz - Behavioral Profile,BPQ 8/10 — 'Good health is...' having energy vs having no problems,
+50,4:01.67,4:06.33,241.67,4.66,Quiz - Behavioral Profile,BPQ 9/10 — 'A weight loss program should...' teach me new things vs not,
+51,4:06.33,4:15.72,246.33,9.39,Quiz - Behavioral Profile,BPQ 10/10 — I need a program vs can figure it out on my own,Chose on my own
+52,4:15.72,4:18.76,255.72,3.04,Quiz - Behavioral Profile,'Analyzing your profile...' loader,
+53,4:18.76,4:25.04,258.76,6.28,Quiz - Behavioral Profile,Result — 'Your Behavioral Profile: Peak Performer','You put in the reps. Now see the gains'; archetype label = identity-based personalization; Next steps
+54,4:25.04,4:34.69,265.04,9.65,Quiz - Weight Loss Profile,Relate card — 'My weight has affected my ability to socialize or engage with friends and family.',No / Yes; emotionally sensitive
+55,4:34.69,4:38.93,274.69,4.24,Quiz - Weight Loss Profile,Relate card — 'life is so busy I find myself putting convenience first.',No / Yes
+56,4:38.93,4:44.46,278.93,5.53,Quiz - Weight Loss Profile,Relate card — 'I know what I should be doing... but I need a way to do it that fits into MY life.',No / Yes
+57,4:44.46,4:48.07,284.46,3.61,Interstitial,'Here's the thing: When a diet lays down the law...' — Noom is not one-diet-fits-all,Next
+58,4:48.07,5:12.98,288.07,24.91,Quiz - Weight Loss Profile,'The most successful Noomers spend 5 minutes a day reading... When will you read your daily lesson?',Morning / Lunch / After dinner / Before bed; commitment device
+59,5:12.98,5:16.31,312.98,3.33,Weight prediction,Updated prediction — '50 kg by 30 Dec' 'And reach your goal by the birthday!','You'll already lose 2 kg by Oct.'; 'we predict you can hit your goal a little sooner!' (date moves earlier)
+60,5:16.31,5:23.47,316.31,7.16,Weight prediction,Updated prediction scrolled to Next,Next
+61,5:23.47,5:34.55,323.47,11.08,Quiz - Eating and Nutrition,'Do you have any dietary restrictions or food allergies?',Yes / No
+62,5:34.55,5:37.08,334.55,2.53,Quiz - Eating and Nutrition,Relate card — 'I am usually multitasking while I eat (like watching tv or scrolling on my phone).',No / Yes; illustrated
+63,5:37.08,5:47.58,337.08,10.50,Interstitial,'You and your environment.' — HOW we eat matters as much as WHAT,Mini-lesson; Next
+64,5:47.58,6:02.16,347.58,14.58,Quiz - Eating and Nutrition,Relate card — 'I usually clear my plate even if I'm already feeling full.',No / Yes
+65,6:02.16,6:07.85,362.16,5.69,Interstitial,'One step at a time.' — why yo-yo dieting happens,'Trust us... We'll help.'; Next
+66,6:07.85,6:18.03,367.85,10.18,Interstitial,"'Restrictive diets often fail, creating a ""yo-yo"" effect.' chart",Dieting vs After Diet chart; Next
+67,6:18.03,6:25.22,378.03,7.19,Quiz - Eating and Nutrition,"'In the last week, which of these foods have you eaten?'",Eggs / Chicken / Avocado / White rice / None; multi select
+68,6:25.22,6:27.54,385.22,2.32,Quiz - Eating and Nutrition,Foods eaten — all four selected,Next
+69,6:27.54,6:35.81,387.54,8.27,Interstitial,'Yellow foods' — caloric density explained,Food color system teaser; Next
+70,6:35.81,6:43.15,395.81,7.34,Quiz - Eating and Nutrition,'Do you crave or enjoy any of the following?',Cheese / Bacon / Honey / Wine
+71,6:43.15,6:45.49,403.15,2.34,Quiz - Eating and Nutrition,Cravings — bacon + cheese selected,Next
+72,6:45.49,6:52.95,405.49,7.46,Interstitial,"'Orange foods' — not bad foods, just eat mindfully",Next
+73,6:52.95,6:57.48,412.95,4.53,Quiz - Eating and Nutrition,"'Lastly, which of these are foods you would eat?'",Salad greens / Cucumbers / Tomatoes / Bananas
+74,6:57.48,6:58.61,417.48,1.13,Quiz - Eating and Nutrition,Would eat — all selected,Next
+75,6:58.61,7:03.97,418.61,5.36,Interstitial,'Green foods' — food philosophy ('we're not rabbits'),Next
+76,7:03.97,7:12.54,423.97,8.57,Interstitial,"'For sustainable weight loss, it's not about cutting any foods out' — pie chart",Next
+77,7:12.54,7:19.00,432.54,6.46,Interstitial,'Why Noom is different' carousel 1 — behavior change ('Building plan...'),Auto-advancing slides with loader
+78,7:19.00,7:24.00,439.00,5.00,Interstitial,Carousel 2 — 'Change your relationship with food in only 10 minutes a day',
+79,7:24.00,7:28.00,444.00,4.00,Interstitial,"Carousel 3 — daily articles, learning not dieting",
+80,7:28.00,7:33.00,448.00,5.00,Interstitial,"Carousel 4 — still eat your favorite foods, nothing off limits",
+81,7:33.00,7:38.24,453.00,5.24,Interstitial,Carousel 5 — track green / yellow / orange foods,
+82,7:38.24,7:44.40,458.24,6.16,Interstitial,Carousel 6 — 'Don't worry if you mess up',
+83,7:44.40,7:47.71,464.40,3.31,Quiz - Health and Fitness,'Do you have any physical limitations?',Answered No
+84,7:47.71,7:56.35,467.71,8.64,Weight prediction,Updated prediction — '50 kg by 22 Dec' (animates 28 -> 22 Dec),"Checklist of what improved it (no limitations, lesson time, plan fits life); 'hit your goal a little earlier now AND still keep a healthy pace'"
+85,7:56.35,7:56.96,476.35,0.61,Weight prediction,Transition,
+86,7:56.96,8:06.63,476.96,9.67,Quiz - Holistic Health Connection,'What else do you want to explore?' — holistic health,"Multi select incl. stress, energy, emotional wellbeing, rest & recovery, healthy aging"
+87,8:06.63,8:15.77,486.63,9.14,Quiz - Holistic Health Connection,"Holistic health — stress, energy, emotional wellbeing, rest & recovery selected",Scrolled; Next
+88,8:15.77,8:24.66,495.77,8.89,Quiz - Understanding Behavior Change,'How has your motivation to lose weight changed over time?',Consistent / Ebbs & flows / Still finding it; chose still finding it
+89,8:24.66,8:33.20,504.66,8.54,Quiz - Understanding Behavior Change,"Relate — 'I need some outside motivation. When I am feeling overwhelmed, it can be easy to give up.'",Yes / Sometimes / No
+90,8:33.20,8:40.37,513.20,7.17,Interstitial,'No one is perfect. (Except maybe Beyonce.)' — motivation + self-forgiveness,Humorous tone; Next
+91,8:40.37,8:55.16,520.37,14.79,Quiz - Understanding Behavior Change,'How motivated are you to reach your target weight?',I'm ready / Feeling hopeful / I'm cautious / Taking it easy
+92,8:55.16,9:04.88,535.16,9.72,Interstitial,"'A goal without a plan is just a wish. Did you know... So let's do this, Iris'",Uses first name; Set My First Goal
+93,9:04.88,9:09.16,544.88,4.28,Quiz - Understanding Behavior Change,"'In addition to your weight loss goal, what's a goal you would like to achieve?'",Run a race / Feel confident in my body / Feel healthier / Outdoor activities / Clothes fit / Other
+94,9:09.16,9:15.59,549.16,6.43,Quiz - Understanding Behavior Change,"Additional goal — selections (feel healthier, confident, outdoor)",Next
+95,9:15.59,9:18.98,555.59,3.39,Interstitial,'Noom's psychology based approach...' — next section explains how you think about weight loss,Next
+96,9:18.98,9:23.76,558.98,4.78,Quiz - Understanding Behavior Change,Knowledge check — 'Let's say you're reaching for a snack. Which is the healthier choice?',Grapes / Raisins; quiz-style right answer
+97,9:23.76,9:32.50,563.76,8.74,Interstitial,Feedback — 'You're right! Grapes are the smarter snack...',"81% water, caloric density; Next"
+98,9:32.50,9:40.68,572.50,8.18,Quiz - Understanding Behavior Change,Knowledge check — 'How can mindful eating help you?',Lose more weight / Increase self-awareness / Both; chose Lose more weight
+99,9:40.68,9:43.70,580.68,3.02,Interstitial,Feedback — 'Best Answer: Both' — mindful eating = intention + attention,Gentle correction; Next
+100,9:43.70,9:55.38,583.70,11.68,Quiz - Understanding Behavior Change,Knowledge check — 'When is the best time to weigh yourself?',First thing after you wake / After last meal
+101,9:55.38,9:58.00,595.38,2.62,Interstitial,Feedback — 'You're right!' weigh daily on empty stomach,Cites Int'l Journal of Behavioral Nutrition; Next
+102,9:58.00,10:02.64,598.00,4.64,Interstitial,"'Great job, Iris! You have a strong foundation...'",Trophy; praise before plan build; Next
+103,10:02.64,10:09.08,602.64,6.44,Quiz - Understanding Behavior Change,'Where did you hear about us?',YouTube / TV / FB-IG / Radio / Friend / Influencer / Search / Doctor / TikTok / Pinterest / Other
+104,10:09.08,10:10.92,609.08,1.84,Quiz - Understanding Behavior Change,Heard about — 'Influencer / Blogs' selected,
+105,10:10.92,10:12.00,610.92,1.08,Quiz - Understanding Behavior Change,"Heard about — scrolled, 'TikTok' selected",Next
+106,10:12.00,10:14.18,612.00,2.18,Plan generation,'Analyzing Demographic Profile' — 7 section progress bars,'Sit tight! We're building your perfect plan based on millions of data points'
+107,10:14.18,10:18.15,614.18,3.97,Plan generation,Modal — 'Is there a history of heart disease or diabetes in your extended family?',Yes / No; question inserted into loader
+108,10:18.15,10:24.92,618.15,6.77,Plan generation,'Cross-checking with User Database...',Progress bars fill per quiz section
+109,10:24.92,10:28.45,624.92,3.53,Plan generation,Modal — 'Do you eat at roughly the same time for each meal everyday?',Yes / No
+110,10:28.45,10:32.91,628.45,4.46,Plan generation,'Matching Behavior Trends...',
+111,10:32.91,10:35.20,632.91,2.29,Plan generation,'Charting Best Fit Plan...',
+112,10:35.20,10:40.00,635.20,4.80,Plan generation,Modal — 'Are you typically on your feet or sitting for most of the day?',Active / Seated; chose Seated
+113,10:40.00,10:44.14,640.00,4.14,Plan generation,'Charting Best Fit Plan' resumes,
+114,10:44.14,10:47.95,644.14,3.81,Plan generation,'Predicting Future Results...',Last bar (Understanding behavior change) fills
+115,10:47.95,10:53.50,647.95,5.55,Plan reveal,'Welcome to Noom Weight' splash,
+116,10:53.50,10:57.00,653.50,3.50,Plan reveal,"'Based on your answers, Iris...'",Cinematic fade-in text
+117,10:57.00,11:00.00,657.00,3.00,Plan reveal,'we've created a personalized plan',
+118,11:00.00,11:03.00,660.00,3.00,Plan reveal,'designed to get you to 50 kg by November 28',Date now ~6 weeks earlier than first prediction
+119,11:03.00,11:06.00,663.00,3.00,Plan reveal,'and lose 8 kg by the birthday',
+120,11:06.00,11:09.87,666.00,3.87,Plan reveal,'Let's get started.',
+121,11:09.87,11:23.55,669.87,13.68,Plan reveal,Final prediction — '50 kg by 28 Nov' (counter animates 20 Dec -> 28 Nov),'Change for good: final 3 weeks of your program build habits to keep the weight off'; Next
+122,11:23.55,11:24.53,683.55,0.98,Paywall,Transition,
+123,11:24.53,11:33.42,684.53,8.89,Paywall,'Start Your 7-Day Trial' — step 1 View personalized plan,Lose 8 kg by Nov 28 / keep weight off / feel healthier; 'Personalized plan reserved... next 15 minutes' EXPIRES IN 14:59 countdown
+124,11:33.42,11:40.00,693.42,6.58,Paywall,Paywall scrolled — goal graph + 'Highlights of your customized plan',"Lose 8 kg for birthday Jan 21 2027, 24/7 personalized support; sticky 'Personalized plan saved: 14:46' timer"
+125,11:40.00,11:47.00,700.00,7.00,Paywall,Paywall — Price today: Free 7-day trial,'You'll have 1 week to see how Noom uses psychology to create lasting results.'
+126,11:47.00,11:54.30,707.00,7.30,Paywall,Paywall — Price after trial: Noom Weight 3-Month Plan US$129.99,US$43.33/month incl VAT; billed Sep 20 unless cancelled; Continue
+127,11:54.30,11:56.73,714.30,2.43,Paywall,Step 2 'Review & Start Trial' — free 7-day trial / cancel anytime,"Autorenew terms: US$129.99 after trial ends Sep 19 2026, every 3 months"
+128,11:56.73,12:01.14,716.73,4.41,Paywall,Review & Start Trial scrolled to 'Let's go',Tapped Let's go
+129,12:01.14,12:05.00,721.14,3.86,Paywall,"App Store purchase sheet — 1-week free trial, $129.99 every 3 months",Double Click to Subscribe
+130,12:05.00,12:06.22,725.00,1.22,Paywall,App Store — Face ID processing,
+131,12:06.22,12:09.00,726.22,2.78,Paywall,Back on review page — purchase processing,
+132,12:09.00,12:10.24,729.00,1.24,Paywall,'You're all set. Your purchase was successful.',OK
+133,12:10.24,12:12.01,730.24,1.77,App entry,'Upgrading to your new program...' loader,
+134,12:12.01,12:14.99,732.01,2.98,App entry,'Accessing your Noom account...' loader,
+135,12:14.99,12:16.00,734.99,1.01,App entry,Today tab skeleton loading,Tab bar: Today / Health / Care / Success Kit
+136,12:16.00,12:21.00,736.00,5.00,App entry - Apple Health permission,'Track your activity automatically' — pair Apple Health,Illustration of iOS sheet with arrow to Turn On All; Continue
+137,12:21.00,12:24.00,741.00,3.00,App entry - Apple Health permission,iOS Health Access permission sheet,"Active Energy, Blood Glucose, Carbohydrates... Allow / Don't Allow"
+138,12:24.00,12:25.06,744.00,1.06,App entry - Apple Health permission,Health Access — only Active Energy turned on,Allow
+139,12:25.06,12:26.00,745.06,0.94,App entry - Apple Health permission,Back on 'Track your activity' screen,
+140,12:26.00,12:30.70,746.00,4.70,App entry - Apple Health permission,'We're not seeing your Apple Health data',Go to Apple Health / Connect another app or device
+141,12:30.70,12:31.00,750.70,0.30,App entry - Apple Health permission,Back to 'Track your activity',Tapped Go to Apple Health
+142,12:31.00,12:33.00,751.00,2.00,App entry - Apple Health permission,Apple Health app — 'Welcome to Health' onboarding,Leaves Noom app
+143,12:33.00,12:34.00,753.00,1.00,App entry - Apple Health permission,Apple Health — 'iCloud is Turned Off for Health',Turn On / Don't Turn On
+144,12:34.00,12:35.14,754.00,1.14,App entry - Apple Health permission,Apple Health — 'Your Health Data is Private and Secure',Continue
+145,12:35.14,12:36.69,755.14,1.55,App entry - Apple Health permission,Apple Health — 'Set up Health Details',Name / DOB / sex / height / weight; Next
+146,12:36.69,12:37.70,756.69,1.01,App entry - Apple Health permission,Apple Health — 'Health Notifications',Walking steadiness / Trends toggles
+147,12:37.70,12:41.00,757.70,3.30,App entry - Apple Health permission,Apple Health — Summary tab,"Backup status, mental health questionnaire, checklist"
+148,12:41.00,12:43.19,761.00,2.19,App entry - Apple Health permission,Apple Health — Sharing tab,
+149,12:43.19,12:44.29,763.19,1.10,App entry - Apple Health permission,App switcher back to Noom,
+150,12:44.29,12:45.12,764.29,0.83,App entry - Apple Health permission,Noom — 'Track your activity automatically' again,
+151,12:45.12,12:47.27,765.12,2.15,App entry - Apple Health permission,Noom — 'We're not seeing your Apple Health data' again,
+152,12:47.27,12:48.00,767.27,0.73,App entry,'Welcome to Noom' article flashes,
+153,12:48.00,12:50.22,768.00,2.22,App entry - Apple Health permission,'Connect apps & devices',"Sync from Apple Health / Google Health (Fitbit), Garmin, Polar / Bluetooth glucometer"
+154,12:50.22,12:57.00,770.22,6.78,App entry - Apple Health permission,"Apple Health app Summary again (pinned Activity, 4,000 steps)",
+155,12:57.00,12:58.30,777.00,1.30,App entry - Apple Health permission,App switcher back to Noom,
+156,12:58.30,13:01.20,778.30,2.90,App entry - Apple Health permission,'We're not seeing your Apple Health data' (third time),
+157,13:01.20,13:05.14,781.20,3.94,App entry - Apple Health permission,'Connect apps & devices' — closed,
+158,13:05.14,13:08.84,785.14,3.70,App entry,'Welcome to Noom' — 'Congrats! Your journey toward your healthiest self has begun.','We've used your answers to customize Noom'; LET'S DO IT; 4-card intro
+159,13:08.84,13:16.06,788.84,7.22,App entry,'Everything you need to succeed is right here',"Personalized course / expert team + 1:1 coaching / food logging, workouts, recipes; SUCCESS, PLEASE"
+160,13:16.06,13:18.00,796.06,1.94,App entry,Health tab loading,
+161,13:18.00,13:19.00,798.00,1.00,App entry,"Health tab — Trends (calories, lessons, weight 58 kg)",Tooltip 'Your Care tab is your home for prescriptions and personalized care.'
+162,13:19.00,13:20.39,799.00,1.39,App entry,Tab switch loading,
+163,13:20.39,13:28.04,800.39,7.65,App entry,Care tab — 'Noom Weight: Improve whole-body health',"NAD+ for Energy upsell, biomarkers test kit"
+164,13:28.04,13:29.80,808.04,1.76,App entry,"Success Kit tab — mini-courses, food color lookup, recipes",
+165,13:29.80,13:31.22,809.80,1.42,App entry,Care tab again,
+166,13:31.22,13:34.48,811.22,3.26,App entry,Modal — 'Introducing a more rewarding Noom',"Streaks / Seeds / Rewards (Amazon, Starbucks gift cards); Sounds great"
+167,13:34.48,13:35.03,814.48,0.55,App entry,'Accessing your Noom account...' loader,
+168,13:35.03,13:37.00,815.03,1.97,App entry,Today tab loading,
+169,13:37.00,13:38.41,817.00,1.41,App entry,"Today tab — calorie bar 0 cal (1,200-1,410 weight loss zone), Seeds 0, streak 0",Empty home state
+170,13:38.41,13:39.76,818.41,1.35,App entry,'Welcome to Noom' article (Let's do it) reopened,
+171,13:39.76,13:40.90,819.76,1.14,App entry,Loading,
+172,13:40.90,13:42.42,820.90,1.52,App entry,Care tab,
+173,13:42.42,13:43.50,822.42,1.08,App entry,Success Kit tab,
+174,13:43.50,13:45.00,823.50,1.50,App entry,Health tab — Trends,
+175,13:45.00,13:46.23,825.00,1.23,App entry,'Welcome to Noom' article,End of recording

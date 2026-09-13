@@ -1,0 +1,224 @@
+screen_no,start_timestamp,end_timestamp,start_seconds,duration_seconds,section,screen,notes
+1,0:00.00,0:06.00,0.00,6.00,Pre-signup,Splash / landing — 'Reframe: the world's most comprehensive alcohol reduction platform',Get Started / Log in
+2,0:06.00,0:14.00,6.00,8.00,Pre-signup,"Social proof — 'Reframe Works. Period.' (2,000,000+ users, 84 countries)",Next
+3,0:14.00,0:21.00,14.00,7.00,Pre-signup,"Social proof — 'Our program is the culmination of years of research' (Harvard/Stanford/Emory, 100M+ data points)",Next
+4,0:21.00,0:28.00,21.00,7.00,Account creation,Create Your Account — empty form,First name / email / password
+5,0:28.00,0:36.00,28.00,8.00,Account creation,Create Your Account — filled in,Sign Up
+6,0:36.00,0:43.00,36.00,7.00,Account creation,Email verification — enter 6-digit confirmation code,Code emailed to user
+7,0:43.00,0:46.00,43.00,3.00,Account creation,"Email verification — code entered, submitting",
+8,0:46.00,1:02.00,46.00,16.00,Quiz - About You,How do you want to change your relationship with alcohol?,Single select
+9,1:02.00,1:16.00,62.00,14.00,Quiz - About You,How did you hear about us?,"Single select, long list"
+10,1:16.00,1:25.00,76.00,9.00,Quiz - About You,What is your age?,Numeric keypad
+11,1:25.00,1:31.00,85.00,6.00,Quiz - About You,Which sex were you assigned at birth?,Single select
+12,1:31.00,1:52.00,91.00,21.00,Quiz - About You,What's motivating you to make this change?,Multi select
+13,1:52.00,1:59.00,112.00,7.00,Interstitial,'You are in good hands!' reassurance card,Got it!
+14,1:59.00,2:52.00,119.00,53.00,Quiz - Your Habits,How often do you drink in a typical week?,Single select
+15,2:52.00,3:02.00,172.00,10.00,Quiz - Your Habits,How much do you drink weekly? (drinks + cost sliders),Shows total spend per month/year
+16,3:02.00,3:08.00,182.00,6.00,Quiz - Your Habits,How much do you drink weekly? (adjusting sliders),
+17,3:08.00,3:16.00,188.00,8.00,Quiz - Your Habits,"How many drinks would you like to cut down to, weekly?",Slider
+18,3:16.00,3:23.00,196.00,7.00,Quiz - Your Habits,Which alcoholic beverages do you typically enjoy?,Multi select
+19,3:23.00,3:46.00,203.00,23.00,Quiz - Your Habits,What influences your choice of alcoholic beverages?,Multi select
+20,3:46.00,4:18.00,226.00,32.00,Quiz - Your Habits,How often does drinking come to mind during the day?,Single select
+21,4:18.00,4:27.00,258.00,9.00,Interstitial,Social proof chart — '43% of our users shared similar consumption patterns',Got it!
+22,4:27.00,4:40.00,267.00,13.00,Quiz - Your Lifestyle,Which best describes your primary occupation/role?,Single select
+23,4:40.00,4:58.00,280.00,18.00,Quiz - Your Lifestyle,How does alcohol consumption affect your routine and motivation the next day?,Single select
+24,4:58.00,5:03.00,298.00,5.00,Quiz - Your Lifestyle,What best describes your current family status?,Single select
+25,5:03.00,5:24.00,303.00,21.00,Quiz - Your Lifestyle,How comfortable are you sharing low/stressed feelings with your partner?,Single select
+26,5:24.00,5:49.00,324.00,25.00,Quiz - Your Lifestyle,"In the last two weeks, have you been experiencing any of these consistently?",Multi select
+27,5:49.00,5:52.00,349.00,3.00,Interstitial,Reviews wall — 'Join millions who've transformed their relationship with alcohol',Got it!
+28,5:52.00,5:59.00,352.00,7.00,Quiz - Your Patterns,How would you describe your typical drinking patterns during a regular day?,Single select
+29,5:59.00,6:59.00,359.00,60.00,Quiz - Your Patterns,How would you describe your typical eating patterns?,Single select
+30,6:59.00,7:21.00,419.00,22.00,Quiz - Your Patterns,How many hours of sleep do you typically get on an average night?,Single select
+31,7:21.00,7:46.00,441.00,25.00,Quiz - Your Patterns,How would you describe the overall quality of your sleep?,Single select
+32,7:46.00,8:05.00,466.00,19.00,Quiz - Your Patterns,Which types of non-alcoholic drinks do you typically enjoy?,Multi select
+33,8:05.00,8:12.00,485.00,7.00,Quiz - Your Patterns,Which statement best describes your current involvement in physical activity?,Single select
+34,8:12.00,8:30.00,492.00,18.00,Quiz - Your Patterns,What challenges prevent you from exercising more frequently?,Multi select
+35,8:30.00,8:49.00,510.00,19.00,Quiz - Your Patterns,Have you previously tried to reduce or stop drinking alcohol?,Single select
+36,8:49.00,9:07.00,529.00,18.00,Quiz - Your Journey,What was the longest period you successfully reduced or abstained from alcohol?,Single select; answer changes the next question
+37,9:07.00,9:27.00,547.00,20.00,Quiz - Your Journey,"Branch (answered 'a few weeks'): Reflecting on your past success, what methods did you use during those few weeks?",Multi select
+38,9:27.00,9:29.00,567.00,2.00,Quiz - Your Journey,What was the longest period you successfully reduced or abstained from alcohol? (went back),Changed answer
+39,9:29.00,9:31.00,569.00,2.00,Quiz - Your Journey,Branch (answered 'a few months'): Congratulations on reducing alcohol for months! What methods did you use during that time?,Multi select
+40,9:31.00,9:33.00,571.00,2.00,Quiz - Your Journey,What was the longest period you successfully reduced or abstained from alcohol? (went back again),Changed answer
+41,9:33.00,9:43.00,573.00,10.00,Quiz - Your Journey,"Branch (third answer): Reflecting on your past attempts to reduce alcohol, what methods did you use to help yourself?",Multi select
+42,9:43.00,9:47.00,583.00,4.00,Interstitial,Projection chart — 'We estimate you could reach your goal in just 8 weeks',Got it!
+43,9:47.00,9:56.00,587.00,9.00,Quiz - Your Mindset,Rate: changing my relationship with alcohol will improve my well-being,Likert scale
+44,9:56.00,10:04.00,596.00,8.00,Quiz - Your Mindset,Rate: inspirational stories of others encourage me,Likert scale
+45,10:04.00,10:15.00,604.00,11.00,Quiz - Your Mindset,Rate: regular reminders of my why keep me focused,Likert scale
+46,10:15.00,10:23.00,615.00,8.00,Quiz - Your Mindset,Rate: motivational quotes or affirmations inspire me,Likert scale
+47,10:23.00,10:30.00,623.00,7.00,Quiz - Your Mindset,Rate: tracking progress and milestones keeps me motivated,Likert scale
+48,10:30.00,10:56.00,630.00,26.00,Quiz - Your Mindset,Which type of content do you find most engaging?,Single select
+49,10:56.00,11:26.00,656.00,30.00,Quiz - Your Mindset,How do you most prefer to reflect on your progress and experiences?,Single select
+50,11:26.00,11:38.00,686.00,12.00,Quiz - Your Mindset,What additional goals would you like to achieve with us?,Multi select
+51,11:38.00,11:50.00,698.00,12.00,Plan generation,'Building your personalized plan!' progress screen,"5 progress bars, Harvard Medical School badge"
+52,11:50.00,11:58.00,710.00,8.00,Plan generation,"Modal — 'And lastly, how often do you drink more than you intend to?'",Often / Sometimes / Never
+53,11:58.00,12:03.00,718.00,5.00,Plan generation,'Building your personalized plan!' progress screen completing,
+54,12:03.00,12:17.00,723.00,14.00,Plan reveal,Iris's Plan — customized plan goals and promise,200% money-back promise
+55,12:17.00,12:20.00,737.00,3.00,Plan reveal,"Iris's Plan — 33,000+ reviews and press logos",Continue
+56,12:20.00,12:25.00,740.00,5.00,Plan reveal,"'Here's what you can look forward to a year from now' ($780 saved, calories, REM)",Continue
+57,12:25.00,12:32.00,745.00,7.00,Paywall,Design Your Trial — 30 days for $4.99 selected,Redeem 30 Days
+58,12:32.00,12:41.00,752.00,9.00,Paywall,"Design Your Trial — 7 days free selected, yearly plan",Redeem 7 Days Free
+59,12:41.00,12:47.00,761.00,6.00,Paywall,Paywall — purchase loading,
+60,12:47.00,12:50.00,767.00,3.00,Paywall,"App Store purchase sheet — 1-week free trial, $19.99/month",Confirm with Side Button
+61,12:50.00,12:57.00,770.00,7.00,Paywall,Paywall — purchase processing,
+62,12:57.00,13:01.00,777.00,4.00,App entry,Today home + iOS notification permission prompt,Allow / Don't Allow
+63,13:01.00,13:07.00,781.00,6.00,App entry,"Welcome modal — 'Congratulations on taking the first step, Iris!'",Let's do it
+64,13:07.00,13:14.00,787.00,7.00,App entry,Today tour tooltip 1/4 — Daily Tasks,
+65,13:14.00,13:30.00,794.00,16.00,App entry,Today tour tooltip 2/4 — Roadmap,
+66,13:30.00,13:34.00,810.00,4.00,App entry,Today home — Daily Tasks list,
+67,13:34.00,13:37.00,814.00,3.00,Toolkit tour,"Toolkit tab — Craving Mode, playlists, mindfulness",Curate Favorites prompt
+68,13:37.00,13:42.00,817.00,5.00,Community setup,Community — 'Welcome to the Community Forum!' modal,Get Started
+69,13:42.00,14:16.00,822.00,34.00,Community setup,Create Your Forum Username modal,Keyboard open
+70,14:16.00,14:19.00,856.00,3.00,Community setup,Add a Photo / Create Profile modal,
+71,14:19.00,14:27.00,859.00,8.00,Community tour,Community tooltip — Discover Your Interests,
+72,14:27.00,14:31.00,867.00,4.00,Community tour,Community tooltip — Create a Post,
+73,14:31.00,14:34.00,871.00,3.00,Community tour,Community tooltip — Chat,
+74,14:34.00,14:38.00,874.00,4.00,Community tour,Community tooltip — Support Groups,
+75,14:38.00,14:41.00,878.00,3.00,Community tour,Community tooltip — View or Edit Your Profile,
+76,14:41.00,14:45.00,881.00,4.00,Community tour,Community Forum feed,
+77,14:45.00,14:48.00,885.00,3.00,Discover tour,Discover tab + 'Let's find the right meetings for you' modal,Get Started
+78,14:48.00,14:51.00,888.00,3.00,Discover tour,Discover — Meetings carousel,
+79,14:51.00,14:54.00,891.00,3.00,Discover tour,Discover — Meetings (scrolled),
+80,14:54.00,14:57.00,894.00,3.00,Discover tour,Discover — Challenges,
+81,14:57.00,15:00.00,897.00,3.00,Discover tour,Discover — Challenges / Thrive Hive,
+82,15:00.00,15:03.00,900.00,3.00,Discover tour,Discover — Thrive Hive,
+83,15:03.00,15:06.00,903.00,3.00,Discover tour,Discover — Thrive Hive / Video Hub,
+84,15:06.00,15:09.00,906.00,3.00,Discover tour,Discover — Video Hub and Courses,
+85,15:09.00,15:12.00,909.00,3.00,Discover tour,Discover — Self-care programs and Blogs,
+86,15:12.00,15:16.00,912.00,4.00,Discover tour,Discover — Blogs,
+87,15:16.00,15:25.00,916.00,9.00,Me tour,Me tab — profile header and My Stats,
+88,15:25.00,15:28.00,925.00,3.00,Me tour,Me tab — My Stats,
+89,15:28.00,15:31.00,928.00,3.00,Me tour,Me tab — Achievements,
+90,15:31.00,15:36.00,931.00,5.00,Me tour,Me tab — Drink Tracker,
+91,15:36.00,15:39.00,936.00,3.00,Me tour,Me tab — Health Tracker (mood/energy/stress),
+92,15:39.00,15:43.00,939.00,4.00,Me tour,Me tab — Refer a friend and More menu,
+93,15:43.00,15:50.00,943.00,7.00,Today,Today home — Daily Tasks,Opening task 1
+94,15:50.00,16:03.00,950.00,13.00,Task 1 - Let's Begin the Journey,"Welcome to Reframe — 'Welcome, Iris!'",I believe!
+95,16:03.00,16:13.00,963.00,10.00,Task 1 - Let's Begin the Journey,'Reframe works.' — 93% see significant reduction,What is Reframe?
+96,16:13.00,16:18.00,973.00,5.00,Task 1 - Let's Begin the Journey,"'What is Reframe, and how is it going to help?'",How does it work?
+97,16:18.00,16:33.00,978.00,15.00,Task 1 - Let's Begin the Journey,"'What is Reframe, and how is it going to help?' (scrolled)",How does it work?
+98,16:33.00,16:36.00,993.00,3.00,Task 1 - Let's Begin the Journey,"Daily activities explainer — readings, exercises, reflections",Show me how!
+99,16:36.00,16:42.00,996.00,6.00,Task 1 - Let's Begin the Journey,Daily activities explainer,
+100,16:42.00,16:45.00,1002.00,3.00,Task 1 - Let's Begin the Journey,Daily activities explainer (scrolled),
+101,16:45.00,16:52.00,1005.00,7.00,Task 1 - Let's Begin the Journey,Dopamine / natural baseline science card,What else?
+102,16:52.00,17:02.00,1012.00,10.00,Task 1 - Let's Begin the Journey,Dopamine science card (scrolled),What else?
+103,17:02.00,17:07.00,1022.00,5.00,Task 1 - Let's Begin the Journey,Community and tools explainer,What will I learn?
+104,17:07.00,17:19.00,1027.00,12.00,Task 1 - Let's Begin the Journey,Your roadmap overview — Phase I modules,"Okay, what comes next?"
+105,17:19.00,17:22.00,1039.00,3.00,Task 1 - Let's Begin the Journey,Roadmap — Phase I skills preview list,
+106,17:22.00,17:26.00,1042.00,4.00,Task 1 - Let's Begin the Journey,Roadmap — 'The Neuroscience Behind Your Drinking Habits' expanded,
+107,17:26.00,17:30.00,1046.00,4.00,Task 1 - Let's Begin the Journey,Roadmap — neuroscience module expanded,
+108,17:30.00,17:33.00,1050.00,3.00,Task 1 - Let's Begin the Journey,Roadmap — neuroscience module (scrolled),
+109,17:33.00,17:37.00,1053.00,4.00,Task 1 - Let's Begin the Journey,Roadmap — module list,
+110,17:37.00,17:40.00,1057.00,3.00,Task 1 - Let's Begin the Journey,Roadmap — 'Alcohol and Your Body' expanded (Days 8-18),
+111,17:40.00,17:44.00,1060.00,4.00,Task 1 - Let's Begin the Journey,Roadmap — module list,
+112,17:44.00,17:47.00,1064.00,3.00,Task 1 - Let's Begin the Journey,Roadmap — 'Looking Ahead: Flow Into Your Best Self' expanded,
+113,17:47.00,17:50.00,1067.00,3.00,Task 1 - Let's Begin the Journey,Roadmap — module list,
+114,17:50.00,18:00.00,1070.00,10.00,Task 1 - Let's Begin the Journey,'Looking ahead' — benefits beyond drinking (ENERGY card),I'm ready. Begin my journey!
+115,18:00.00,18:03.00,1080.00,3.00,Task 1 - Let's Begin the Journey,"'Looking ahead' — a happier, healthier you",
+116,18:03.00,18:12.00,1083.00,9.00,Task 1 - Let's Begin the Journey,'Looking ahead' (scrolled),
+117,18:12.00,18:17.00,1092.00,5.00,Task 2 - Identifying Our Why,Your Why — 'What is your why?',Tell me more!
+118,18:17.00,18:20.00,1097.00,3.00,Task 2 - Identifying Our Why,Your Why — 'Why your why is important' (motivation curve),How does it work?
+119,18:20.00,18:33.00,1100.00,13.00,Task 2 - Identifying Our Why,Your Why — 'Why your why is important' (scrolled),
+120,18:33.00,18:44.00,1113.00,11.00,Task 2 - Identifying Our Why,Your Why — 'Your why will keep you going',Where do I find my why?
+121,18:44.00,18:47.00,1124.00,3.00,Task 2 - Identifying Our Why,Your Why — Intrinsic vs. Extrinsic,Give me some examples!
+122,18:47.00,18:50.00,1127.00,3.00,Task 2 - Identifying Our Why,Your Why — Intrinsic vs. Extrinsic (scrolled),
+123,18:50.00,18:57.00,1130.00,7.00,Task 2 - Identifying Our Why,Your Why — motivator examples,How do motivators work?
+124,18:57.00,19:00.00,1137.00,3.00,Task 2 - Identifying Our Why,Your Why — how motivators work (arrow diagram),Do I have to pick one why?
+125,19:00.00,19:03.00,1140.00,3.00,Task 2 - Identifying Our Why,Your Why — how motivators work,
+126,19:03.00,19:14.00,1143.00,11.00,Task 2 - Identifying Our Why,Your Why — 'Your why can change',I'm ready!
+127,19:14.00,19:17.00,1154.00,3.00,Task 2 - Identifying Our Why,Your Why — 'Let's work on identifying your true why',Find your why!
+128,19:17.00,19:23.00,1157.00,6.00,Task 2 - Identifying Our Why,Your Why — true why laddering example,
+129,19:23.00,19:26.00,1163.00,3.00,Task 2 - Identifying Our Why,Your Why — true why laddering example (scrolled),
+130,19:26.00,19:31.00,1166.00,5.00,Task 2 - Identifying Our Why,"'Let's Discover Your True Why, Iris'",Write My True Why
+131,19:31.00,19:37.00,1171.00,6.00,Task 2 - Identifying Our Why,"Why input — 'I want to cut back on drinking, so that...' (empty)","Keyboard, Show Examples"
+132,19:37.00,19:50.00,1177.00,13.00,Task 2 - Identifying Our Why,Why input — typing,
+133,19:50.00,19:55.00,1190.00,5.00,Task 2 - Identifying Our Why,"'That's great, Iris' — Coach Melody follow-up prompt",Continue
+134,19:55.00,20:01.00,1195.00,6.00,Task 2 - Identifying Our Why,Why input — deeper revision,Keyboard
+135,20:01.00,20:14.00,1201.00,13.00,Task 2 - Identifying Our Why,Examples bottom sheet,
+136,20:14.00,20:19.00,1214.00,5.00,Task 2 - Identifying Our Why,"'Thanks, Iris!' — Coach Melody response",Next
+137,20:19.00,20:22.00,1219.00,3.00,Task 2 - Identifying Our Why,'Let's keep your why top of mind' — My True Why card,Done / Share My Why
+138,20:22.00,20:26.00,1222.00,4.00,Task 2 - Identifying Our Why,My True Why — edit and pin to homepage toggle,
+139,20:26.00,20:29.00,1226.00,3.00,Task 2 - Identifying Our Why,"Where else to put your why (planner, mirror, car)",
+140,20:29.00,20:32.00,1229.00,3.00,Task 2 - Identifying Our Why,Activity feedback — thumbs up/down,Done
+141,20:32.00,20:35.00,1232.00,3.00,Today,Today home — Daily Tasks with 2 tasks complete,
+142,20:35.00,20:40.00,1235.00,5.00,Task 3 - Daily Motivation,Motivational Quote card,Complete
+143,20:40.00,20:44.00,1240.00,4.00,Task 4 - Log Your Drinks,Log Your Drink modal — 0 drinks,Did Not Drink
+144,20:44.00,20:50.00,1244.00,6.00,Task 4 - Log Your Drinks,Log Your Drink modal — 1 drink,Submit
+145,20:50.00,20:53.00,1250.00,3.00,Task 4 - Log Your Drinks,Log Your Drink modal — add time,Time picker
+146,20:53.00,21:13.00,1253.00,20.00,Task 4 - Log Your Drinks,Log Your Drink modal — two time entries,Submit / Log Craving
+147,21:13.00,21:18.00,1273.00,5.00,Craving diary,Craving Entry — When did you have a craving?,Time wheel
+148,21:18.00,21:25.00,1278.00,7.00,Craving diary,Craving Entry — How were you feeling right before?,Emotion chips
+149,21:25.00,21:31.00,1285.00,6.00,Craving diary,Craving Entry — feeling before (selected),
+150,21:31.00,21:36.00,1291.00,5.00,Craving diary,Craving Entry — How severe was your craving? (1-10 slider),
+151,21:36.00,21:44.00,1296.00,8.00,Craving diary,Craving Entry — What triggered your craving?,Multi select
+152,21:44.00,21:49.00,1304.00,5.00,Craving diary,Craving Entry — trigger list (scrolled),
+153,21:49.00,21:52.00,1309.00,3.00,Craving diary,Craving Entry — What was the primary cause of your trigger?,Free text
+154,21:52.00,22:17.00,1312.00,25.00,Craving diary,Craving Entry — primary cause (keyboard open),
+155,22:17.00,22:25.00,1337.00,8.00,Craving diary,Craving Entry — What happened next?,Overcame it / still going
+156,22:25.00,22:28.00,1345.00,3.00,Craving diary,Log Your Drink modal (launched from craving flow),Submit
+157,22:28.00,22:35.00,1348.00,7.00,Craving diary,Craving Entry — What happened? 'I had a drink',Drinks count updated
+158,22:35.00,22:42.00,1355.00,7.00,Craving diary,Craving Entry — How did you feel after?,Emotion chips
+159,22:42.00,22:48.00,1362.00,6.00,Craving diary,"Craving summary — 'You just started something, and you're on the right path'",Done
+160,22:48.00,22:53.00,1368.00,5.00,Craving diary,Craving summary (scrolled) + Work with a Coach promo,Done
+161,22:53.00,22:57.00,1373.00,4.00,Drink logging,Log Your Drink — 'Leave without saving?' confirm dialog,
+162,22:57.00,23:06.00,1377.00,9.00,Drink logging,Log Your Drink — 3 drinks across two times,Submit
+163,23:06.00,23:12.00,1386.00,6.00,Drink logging,Log Your Drink — 'Leave without saving?' dialog,
+164,23:12.00,23:22.00,1392.00,10.00,Drink logging,Log Your Drink — 3 drinks logged,
+165,23:22.00,23:25.00,1402.00,3.00,Drink logging,Log Your Drink — 'Leave without saving?' dialog,
+166,23:25.00,23:28.00,1405.00,3.00,Today,Today home — 4 of 5 daily tasks complete,
+167,23:28.00,23:31.00,1408.00,3.00,Drink logging,Log Your Drink — 1 drink at 7:46 PM,Submit
+168,23:31.00,23:34.00,1411.00,3.00,Task 5 - Set Up Your Tracker,'Set up your drink tracker' intro (3 steps),Get Started
+169,23:34.00,23:55.00,1414.00,21.00,Task 5 - Set Up Your Tracker,"Baseline — 'On a typical Monday, how many drinks?'",Per-day stepper
+170,23:55.00,24:00.00,1435.00,5.00,Task 5 - Set Up Your Tracker,Set Up Your Target — weekly recommendation (19 baseline / 15 target),Confirm Weekly Target
+171,24:00.00,24:04.00,1440.00,4.00,Task 5 - Set Up Your Tracker,'You're all set! Time to turn your goals into reality',One Final Thing
+172,24:04.00,24:10.00,1444.00,6.00,Task 5 - Set Up Your Tracker,'Stay on track with timely Reminders' + push toggle,Next
+173,24:10.00,24:13.00,1450.00,3.00,Task 5 - Set Up Your Tracker,'You're all set Iris!' reminders confirmation,Complete
+174,24:13.00,24:17.00,1453.00,4.00,Day 1 check-in,'Congratulations on completing your first day!',Continue
+175,24:17.00,24:21.00,1457.00,4.00,Day 1 check-in,Check-in 1 of 9 — How's your first day been so far?,
+176,24:21.00,24:24.00,1461.00,3.00,Day 1 check-in,Check-in 2 of 9 — minutes a day you can commit,
+177,24:24.00,24:36.00,1464.00,12.00,Day 1 check-in,Check-in 2 of 9 — minutes a day (selected),
+178,24:36.00,24:41.00,1476.00,5.00,Day 1 check-in,Check-in 3 of 9 — How consistent is your schedule?,
+179,24:41.00,24:44.00,1481.00,3.00,Day 1 check-in,Check-in 3 of 9 — schedule (selected),
+180,24:44.00,24:48.00,1484.00,4.00,Day 1 check-in,Check-in 4 of 9 — What time of day do you want to check in?,
+181,24:48.00,24:51.00,1488.00,3.00,Day 1 check-in,Check-in 4 of 9 — check-in time (selected),
+182,24:51.00,24:56.00,1491.00,5.00,Day 1 check-in,Check-in 5 of 9 — Set your reminder time,"Time wheel, Set Reminder"
+183,24:56.00,25:01.00,1496.00,5.00,Day 1 check-in,Check-in 6 of 9 — Are you open to daily journaling?,
+184,25:01.00,25:17.00,1501.00,16.00,Day 1 check-in,Check-in 7 of 9 — What's your support system like outside Reframe?,
+185,25:17.00,25:21.00,1517.00,4.00,Day 1 check-in,Check-in 8 of 9 — What challenges have you faced?,Free text
+186,25:21.00,25:29.00,1521.00,8.00,Day 1 check-in,Check-in 8 of 9 — challenges (free text),
+187,25:29.00,25:49.00,1529.00,20.00,Day 1 check-in,Check-in 8 of 9 — challenges (keyboard open),
+188,25:49.00,25:56.00,1549.00,7.00,Day 1 check-in,Check-in 9 of 9 — Which sounds the most exciting?,
+189,25:56.00,25:59.00,1556.00,3.00,Day 1 check-in,Check-in 9 of 9 — selected,See My Plan
+190,25:59.00,26:05.00,1559.00,6.00,Plan refresh,'Adjusting your plan' loading,
+191,26:05.00,26:11.00,1565.00,6.00,Plan refresh,"'Here's your daily plan, Iris!'",
+192,26:11.00,26:14.00,1571.00,3.00,Plan refresh,Daily plan (scrolled) — sneak peek of custom program,
+193,26:14.00,26:17.00,1574.00,3.00,Plan refresh,Daily plan (scrolled),
+194,26:17.00,26:20.00,1577.00,3.00,Plan refresh,'Come back tomorrow to learn how alcohol changes your brain chemistry',Sounds Good! / Retake Quiz
+195,26:20.00,26:25.00,1580.00,5.00,Plan refresh,"Share Achievement — day 1 streak, +50 Recoins",Share / Maybe Later
+196,26:25.00,26:34.00,1585.00,9.00,Plan refresh,'Pick your streak goal!' — swipe to commit,
+197,26:34.00,26:38.00,1594.00,4.00,Drink tracker,"Today home — 1-day streak, Your Why card",
+198,26:38.00,26:42.00,1598.00,4.00,Drink tracker,Drink Tracker calendar — Monday Sep 7 targets,
+199,26:42.00,26:45.00,1602.00,3.00,Drink tracker,Log Your Drink — today's target 1,Submit
+200,26:45.00,26:48.00,1605.00,3.00,Drink tracker,Drink Tracker calendar — drinks count updated,
+201,26:48.00,26:56.00,1608.00,8.00,Drink tracker,Log Your Drink — 2 drinks,
+202,26:56.00,27:01.00,1616.00,5.00,Drink tracker,Log Your Drink — time picker,
+203,27:01.00,27:06.00,1621.00,5.00,Drink tracker,Log Your Drink — three time rows,
+204,27:06.00,27:13.00,1626.00,7.00,Drink tracker,Log Your Drink — two time rows,Submit
+205,27:13.00,27:16.00,1633.00,3.00,Day 1 support,'Your first day doesn't define your journey' support screen,Keep going
+206,27:16.00,27:33.00,1636.00,17.00,Day 1 support,Day 1 support screen,
+207,27:33.00,27:36.00,1653.00,3.00,Day 1 support,Day 1 support screen (scrolled),Keep going
+208,27:36.00,27:41.00,1656.00,5.00,Coping strategies,'Introducing Coping Strategies' intro,Set up my first strategy
+209,27:41.00,27:44.00,1661.00,3.00,Coping strategies,Question 1 of 4 — Choose a trigger to develop a strategy for,
+210,27:44.00,27:53.00,1664.00,9.00,Coping strategies,Question 1 of 4 — trigger selected,Next
+211,27:53.00,27:58.00,1673.00,5.00,Coping strategies,Question 2 of 4 — Write a short description of this trigger,
+212,27:58.00,28:09.00,1678.00,11.00,Coping strategies,Question 2 of 4 — description (keyboard open),
+213,28:09.00,28:10.50,1689.00,1.50,Coping strategies,Question 2 of 4 — description entered,Done
+214,28:10.50,28:15.00,1690.50,4.50,Coping strategies,"Question 3 of 4 — What is the severity of this trigger, typically?",1-10 slider
+215,28:15.00,28:19.00,1695.00,4.00,Coping strategies,Question 4 of 4 — Best methods for you to cope with the trigger,Multi select
+216,28:19.00,28:22.00,1699.00,3.00,Coping strategies,'You just gave yourself a way through the hard moments' summary,Done / Add another trigger
+217,28:22.00,28:32.00,1702.00,10.00,Coping strategies,Coping Strategies — Entries list,
+218,28:32.00,28:35.00,1712.00,3.00,App browsing,Drink Tracker calendar,
+219,28:35.00,28:38.00,1715.00,3.00,App browsing,Today (scrolled) — Meetings,
+220,28:38.00,28:41.00,1718.00,3.00,App browsing,Today (scrolled) — coach matching and Stay on Track Together,
+221,28:41.00,28:44.00,1721.00,3.00,App browsing,Today (scrolled) — private coaching,
+222,28:44.00,28:47.00,1724.00,3.00,App browsing,Today home,
+223,28:47.00,28:49.07,1727.00,2.07,App browsing,Today home — end of recording,

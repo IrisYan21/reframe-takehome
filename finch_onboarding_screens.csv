@@ -1,0 +1,53 @@
+screen_no,start_timestamp,end_timestamp,start_seconds,duration_seconds,section,screen,notes
+1,0:00.00,0:01.00,0.00,1.00,Pre-signup,iOS home screen — user taps Finch app icon,Recording starts outside the app
+2,0:01.00,0:04.00,1.00,3.00,Pre-signup,Splash — 'Finch' logo with bird mascot,
+3,0:04.00,0:08.00,4.00,4.00,Pre-signup,Landing — 'Finch: Your new self-care best friend',"Hatch a new pet / Login; 'By continuing, you agree to our Terms of Service and Privacy Policy' (implicit consent, no signup form)"
+4,0:08.00,0:11.00,8.00,3.00,Pet setup,'Choose your Finch Egg!' — six coloured eggs around a baby bird,"Grey egg pre-selected; copy: 'Finches are lively, social, and inquisitive'; Hatch egg"
+5,0:11.00,0:13.00,11.00,2.00,Pet setup,Egg-cracking animation,
+6,0:13.00,0:15.00,13.00,2.00,Pet setup,'You hatched a birb!' celebration,Sunburst animation; emotional payoff 13s in
+7,0:15.00,0:17.00,15.00,2.00,Pet setup,'You hatched a birb!' — 'Your birb's pronouns',he/him / she/her / they/them; she/her selected; Next
+8,0:17.00,0:19.00,17.00,2.00,Pet setup,'What do you want to name your baby birb?' — default name 'Bubbles','You can change this later.'; Shuffle / Next
+9,0:19.00,0:23.00,19.00,4.00,Pet setup,"Name your birb — keyboard open, deleting 'Bubbles'",Next disabled when empty
+10,0:23.00,0:29.00,23.00,6.00,Pet setup,Name your birb — typing 'Otter',Name entered: Otter; Next
+11,0:29.00,0:35.00,29.00,6.00,Pet setup,'Choose a trait for Otter' — 'Otter cares about...',Curiosity / Resilience / Compassion / Logic / Confidence / Security; bird animates per trait; Compassion chosen; Next
+12,0:35.00,0:42.00,35.00,7.00,Pet setup,"Otter speech bubble — 'Cheep cheep, thanks for hatching me. If my name is Otter, what's your name?'","Keyboard open; user types 'Iris' (first name only, no account)"
+13,0:42.00,0:48.00,42.00,6.00,Pet setup,"'Nice to meet you, Iris! They call me a self-care pet. What is self-care?'","Two answer bubbles: 'taking care of your body, mind, and relationships, while having fun!' / 'doing what you can, even when you're not feeling your best.'"
+14,0:48.00,0:53.00,48.00,5.00,Pet setup,"'Wow! When you take care of yourself, you take care of me, too! Let's do it together, cheep!'",Reward toast 'Otter gained +4.1 Logic'; Next
+15,0:53.00,0:57.00,53.00,4.00,Permissions,Notification pre-prompt — 'Get reminders from Otter',Sample push 'From Otter: Remember to drink water!'; Turn on notifications / Maybe later
+16,0:57.00,0:58.00,57.00,1.00,Permissions,iOS system prompt — 'Finch Would Like to Send You Notifications',Don't Allow / Allow
+17,0:58.00,0:59.00,58.00,1.00,Interstitial,'Let's learn a bit about you!' — 'Otter is curious about how she can grow with you.',Next
+18,0:59.00,1:01.00,59.00,2.00,Quiz - About You,How old are you?,'This helps us personalize your experience'; Under 18 … 55-64+; 25-34 selected
+19,1:01.00,1:02.50,61.00,1.50,Quiz - About You,What's your gender?,Male / Female / Non-binary / Prefer not to answer; auto-advance
+20,1:02.50,1:04.75,62.50,2.25,Quiz - About You,Have you used Finch before?,"'No, this is my first time!' / 'Yes, but I'm starting fresh'; first time selected"
+21,1:04.75,1:07.50,64.75,2.75,Quiz - Energy & Activity,How long do you usually sleep at night?,Less than 5 / 5-7 / 7-9 / More than 9 hours; 7-9 hours selected
+22,1:07.50,1:11.75,67.50,4.25,Quiz - Energy & Activity,How easy is it for you to get out of bed?,"Very easy / Sometimes easy, some days can be hard / Hard, I often struggle; 'Very easy' selected"
+23,1:11.75,1:16.00,71.75,4.25,Quiz - Energy & Activity,How active are you during the day?,On the move / balance / 'I don't move much and want to be more active' (selected) / 'I have conditions that limit my movement'
+24,1:16.00,1:18.30,76.00,2.30,Quiz - How's Life,How often do you feel overwhelmed?,Several times a week (selected) / a few stressful days each month / manage stress pretty well
+25,1:18.30,1:27.50,78.30,9.20,Quiz - How's Life,How many people can you lean on for support in tough times?,3 or more / 2 / 1 / Just me — tree-to-leaf icons; 9s hesitation; '3 or more' selected
+26,1:27.50,1:31.20,87.50,3.70,Quiz - How's Life,How happy are you with your current routine?,"Completely / Slightly, I'd like to see some improvements / 'Not at all, I expect to see a major change' (selected)"
+27,1:31.20,1:34.40,91.20,3.20,Quiz - Support Areas,Do you struggle with any of these mental health challenges?,"Multi select: Depression / Anxiety / ADHD / PTSD / OCD …; Depression + Anxiety selected; clinical labels, no severity asked"
+28,1:34.40,1:45.00,94.40,10.60,Quiz - Support Areas,What areas would you like support with?,Multi select: Sleep better / Build healthy eating habits / Boost focus / Stay fresh and clean / Be more active …
+29,1:45.00,1:56.60,105.00,11.60,Quiz - Support Areas,"What areas would you like support with? (scrolled, toggling)","More options: Appreciate the good things / Self-acceptance and confidence / Manage stress and anxiety / Strengthen social skills / Build and keep a routine; final: focus, active, self-acceptance, stress, social"
+30,1:56.60,2:05.00,116.60,8.40,Quiz - Support Areas,Which topics make it harder for you to feel confident or accept yourself?,Multi select: Body image / Overall health / Social skills / Motivation / Chronic pain; Body image selected
+31,2:05.00,2:19.00,125.00,14.00,Quiz - Support Areas,Which topics make it harder for you to feel confident or accept yourself? (scrolled),"More: Fitness level / Energy levels / Time management and procrastination / Managing emotions / Relationships / Other; final: Body image, Social skills, Energy levels"
+32,2:19.00,2:24.00,139.00,5.00,Quiz - Support Areas,What tends to overwhelm you the most?,Multi select: Too many responsibilities / Work or school stress (selected) / Perfectionism / Mental or physical health issues / Financial concerns
+33,2:24.00,2:29.00,144.00,5.00,Quiz - Support Areas,What tends to overwhelm you the most? (scrolled),More: Relationship issues / Lack of time for yourself / Major life changes / Making decisions / Taking care of others / Other
+34,2:29.00,2:38.80,149.00,9.80,Quiz - Support Areas,What's your biggest obstacle to staying active?,Too busy / too tired / weather / 'I don't see results' (selected) / no enjoyable exercise / 'I'm worried about being judged' / 'I'm out of shape so it's hard to do' / no space
+35,2:38.80,2:44.50,158.80,5.70,Quiz - Support Areas,What do you often find yourself procrastinating on?,Multi select: Exercising / Healthy eating / Responding to messages / Managing finances / Homework or work tasks
+36,2:44.50,2:52.00,164.50,7.50,Quiz - Support Areas,What do you often find yourself procrastinating on? (scrolled),More: Hobbies / Chores / Taking breaks / Important life decisions / Scheduling appointments; Managing finances + Responding to messages selected
+37,2:52.00,3:05.20,172.00,13.20,Quiz - Support Areas,Why do you think you put things off?,Bored / too overwhelmed / don't make time / 'I'm scared of failing' (selected) / scared of succeeding / 'I don't believe in myself' / not motivated enough
+38,3:05.20,3:08.00,185.20,2.80,Plan generation,'Generating your self-care goals with Otter...' progress ring,~3s
+39,3:08.00,3:18.10,188.00,10.10,Plan reveal,'Iris's starter plan' — 'Try these easy goals with Otter!',"Otter: 'You got this, cheep!'; 7 micro-goals: Get out of bed, Brush teeth, Wash my face, Drink water, Stretch break, One thing that makes me happy, 3 deep breaths; Let's do it!"
+40,3:18.10,3:28.00,198.10,9.90,Paywall,'Finch is free to use — But we'd love for you to try Finch Plus for 7 days free too!','Over 500K+ 5-star reviews worldwide'; See my FREE offer; free tier stated up front
+41,3:28.00,3:32.90,208.00,4.90,Paywall,'Free to cancel anytime — We'll send a reminder 2 days before your free trial ends','Loved by 45M+ users'; See my FREE offer
+42,3:32.90,3:35.60,212.90,2.70,Paywall,'One-time offer! 50% OFF when you start your free trial now',Editors' Choice App Store badge; 'Biggest discount ever—just for you & Otter'; See FREE offer details
+43,3:35.60,3:46.50,215.60,10.90,Paywall,'Start your 7-day FREE trial' — 'One-time offer applied',Timeline Today / Day 5 reminder / Day 7 charged Sep 19; then $69.99 struck → $34.99 per year (save 50%); Start my free trial now / Skip this one-time offer; 'Offer expires when you exit this screen!'
+44,3:46.50,4:20.50,226.50,34.00,Paywall,Trial screen — purchase processing (button spinner),~34s; App Store confirmation sheet not visible in recording
+45,4:20.50,4:24.60,260.50,4.10,App entry,Widget upsell — 'Make your habits stick!','Users with the widget are 4x more likely to stick with their self-care habits'; Add widget / No thanks
+46,4:24.60,4:29.70,264.60,5.10,Today,"Home — Otter in forest, '1st Adventure 0/15', '7 goals left for today!'",Starter-plan goals listed (5 energy each) with check buttons; tabs Home / Quests / Shop / Friends / Bag / Otter
+47,4:29.70,4:31.10,269.70,1.40,App tour,'Otter's bag',Mail (1) / Outfits / Furniture / locked Colors & Micropets; Finchie Forest
+48,4:31.10,4:33.60,271.10,2.50,App tour,'Otter's Mail' — 'The time capsule is open! Add some memories',1 new message
+49,4:33.60,4:34.90,273.60,1.30,Today,Home — back from mail,
+50,4:34.90,4:36.00,274.90,1.10,App tour,Location switcher overlay — 'Otter's house' / 'Finchie Forest',Close X
+51,4:36.00,4:40.80,276.00,4.80,Today,Home — idle,
+52,4:40.80,4:42.31,280.80,1.51,End of recording,iOS Control Center — stopping screen recording,
